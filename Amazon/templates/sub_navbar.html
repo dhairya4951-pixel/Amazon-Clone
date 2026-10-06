@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="static/css/sub_navbar.css" />
+    <style src="static/js/sub_navbar.js"></style>
   </head>
   <body>
     <div class="sidebar">
@@ -24,8 +25,12 @@
           {%endfor%}
         </div>
       </div>
-      <div class="cross_bar">
-        <i class="fa-solid fa-xmark"></i>
+
+      <div class="overlay"></div>
+
+
+      <div onclick="" class="cross_bar" >
+        <i onclick="hideSidebar()" class="fa-solid fa-xmark"></i>
       </div>
     </div>
   </body>
